@@ -5,33 +5,46 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+
+    "icon": "./assets/icon.png",
+
     "splash": {
+      "image": "./assets/splashscreen_logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#1A73E8"
     },
+
     "assetBundlePatterns": [
       "**/*"
     ],
+
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.jaybhatt.paperhub"
     },
+
     "android": {
       "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#1A73E8"
       },
       "package": "com.jaybhatt.paperhub"
     },
+
     "web": {},
+
     "scheme": "paperhub",
+
     "extra": {
       "eas": {
         "projectId": "8af42df2-91b7-4093-9f45-8a87c385379f"
       }
     },
+
     "runtimeVersion": {
       "policy": "appVersion"
     },
+
     "updates": {
       "url": "https://u.expo.dev/8af42df2-91b7-4093-9f45-8a87c385379f"
     }
